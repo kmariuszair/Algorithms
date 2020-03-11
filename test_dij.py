@@ -18,5 +18,5 @@ class TestDijkstra(unittest.TestCase):
         }
         self.assertListEqual(Dijkstra(adjacency_list, 1, 7), [1, 2, 7])
 
-if __name__ == "main":
+if __name__ == "__main__":
     unittest.main()
